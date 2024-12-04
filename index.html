@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사진 갤러리</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
 
+        h1 {
+            margin: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .gallery img {
+            margin: 10px;
+            width: 200px; /* 원하는 크기로 조정 */
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+    <h1>사진 갤러리</h1>
+    <div class="gallery">
+        <img src="image/image1.jpg" alt="사진 1">
+        <img src="image/image2.jpg" alt="사진 2">
+        <img src="image/image3.jpg" alt="사진 3">
+        <img src="image/image4.jpg" alt="사진 4">
+    </div>
+</body>
+</html>
